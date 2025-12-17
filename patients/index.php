@@ -7,19 +7,18 @@ $result = mysqli_query($conn, "SELECT * FROM patients");
 
 <div class="flex min-h-screen">
 
-    <!-- Sidebar -->
     <aside class="w-64 bg-cyan-600 text-white p-6">
         <h1 class="text-xl font-bold mb-8">Unity Care Clinic</h1>
 
         <nav class="space-y-4">
-            <a href="../dashboard.php" class="block hover:text-gray-200">Dashboard</a>
-            <a href="index.php" class="block font-semibold hover:text-gray-200">Patients</a>
-            <a href="../doctors/index.php" class="block hover:text-gray-200">Doctors</a>
-            <a href="../departments/index.php" class="block hover:text-gray-200">Departments</a>
+            <a href="../dashboard.php" class="block hover:text-gray-200"><i class="fa-solid fa-house"></i> Dashboard</a>
+            <a href="index.php" class="block font-semibold hover:text-gray-200"><i class="fa-solid fa-user-injured"></i> Patients</a>
+            <a href="../doctors/index.php" class="block hover:text-gray-200"><i class="fa-solid fa-user-doctor"></i> Doctors</a>
+            <a href="../departments/index.php" class="block hover:text-gray-200"><i class="fa-sharp fa-solid fa-building"></i> Departments</a>
         </nav>
     </aside>
 
-    <!-- Main Content -->
+    
     <main class="flex-1 bg-gray-100 p-6">
 
         <h2 class="text-2xl font-bold mb-4">Patients</h2>
