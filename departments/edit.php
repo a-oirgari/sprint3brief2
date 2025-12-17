@@ -46,7 +46,7 @@ include "../includes/header.php";
         >
 
         <div class="flex gap-4">
-            <button class="bg-blue-600 text-white px-4 py-2 rounded mt-2">
+            <button class="bg-[#023047] text-white px-4 py-2 rounded mt-2">
                 Update
             </button>
             <a href="index.php" class="border px-4 py-2 rounded mt-2">
