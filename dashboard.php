@@ -83,6 +83,4 @@ new Chart(ctx, {
 });
 </script>
 
-
-
 <?php include "includes/footer.php"; ?>
