@@ -1,4 +1,5 @@
 <?php
+require_once "includes/auth.php";
 require_once "config/db.php";
 include "includes/header.php";
 
@@ -27,6 +28,9 @@ $departments = mysqli_fetch_assoc(
             <a href="patients/index.php" class="block hover:text-gray-200"><i class="fa-solid fa-user-injured"></i> Patients</a>
             <a href="doctors/index.php" class="block hover:text-gray-200"><i class="fa-solid fa-user-doctor"></i> Doctors</a>
             <a href="departments/index.php" class="block hover:text-gray-200"><i class="fa-sharp fa-solid fa-building"></i> Departments</a>
+            <a href="logout.php" class="block hover:text-gray-200">
+                <i class="fas fa-sign-out-alt"></i> Logout
+            </a>
         </nav>
     </aside>
 

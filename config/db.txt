@@ -1,0 +1,11 @@
+<?php
+$host = "sql310.infinityfree.com";
+$user = "if0_40712878";
+$pass = "9QHWU1keZOK2PF";
+$db   = "if0_40712878_hospital_management";
+
+$conn = mysqli_connect($host, $user, $pass, $db);
+
+if (!$conn) {
+    die("Database connection failed: " . mysqli_connect_error());
+}
